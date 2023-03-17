@@ -1,0 +1,11 @@
+.profile__item{
+    width: 336px;
+    height: 73px;
+    margin: 22px auto 25px 0;
+}
+@media screen and (max-width: 680px){
+    .profile__item{
+        width: 282px;
+        margin:26px auto 0;
+    }
+}
