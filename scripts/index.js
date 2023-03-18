@@ -16,7 +16,11 @@ function openPopup(){
   popupBox.classList.remove('popup_opened');
  }
 
- buttonPopupOpen.addEventListener('click',openPopup);
+ buttonPopupOpen.addEventListener('click', () =>{
+  openPopup();
+  nameInput.value = profileName.textContent;
+  jobInput.value = profileJob.textContent;
+ });
 
  buttonPopupClose.addEventListener('click',closePopup);
 
@@ -27,7 +31,3 @@ function openPopup(){
   closePopup();
  })
 
- buttonPopupOpen.addEventListener('click', () =>{
-  nameInput.value = profileName.textContent;
-  jobInput.value = profileJob.textContent;
-})
