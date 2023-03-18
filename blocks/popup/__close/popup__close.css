@@ -3,8 +3,7 @@
     height: 32px;
     background: rgba(0,0,0,0);
     background-image: url(../../../images/Close\ Icon.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: 32px 32px;
     position: absolute;
     right: -40px;
     top: -40px;
@@ -19,6 +18,7 @@
     .popup__close{
         width: 20px;
         height: 20px;
+        background-size: 20px 20px;
         right: -0px;
         top: -36px;
     }

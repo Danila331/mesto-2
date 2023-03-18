@@ -1,11 +1,12 @@
 .profile__item{
-    width: 336px;
-    height: 73px;
-    margin: 22px auto 25px 0;
+    max-width: 336px;
+    width: 100%;
+    margin: 0 auto 0 0;
+    padding-top: 2px;
 }
 @media screen and (max-width: 680px){
     .profile__item{
-        width: 282px;
-        margin:26px auto 0;
+        max-width: 282px;
+        margin:24px auto 0;
     }
 }

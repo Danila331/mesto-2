@@ -6,7 +6,7 @@
     background-image: url(../../../images/like.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #FFFFFF;
+    background-color: transparent;
     cursor: pointer;
     opacity: 1;
     transition: opacity 0.3s linear;
@@ -16,4 +16,5 @@
 }
 .element__button:active{
   background-image: url(../../../images/like-active.svg);
+  opacity: 1;
 }
