@@ -28,7 +28,6 @@ function openPopup(){
  })
 
  buttonPopupOpen.addEventListener('click', () =>{
-  openPopup();
   nameInput.value = profileName.textContent;
   jobInput.value = profileJob.textContent;
 })
