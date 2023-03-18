@@ -20,7 +20,7 @@ function openPopup(){
   openPopup();
   nameInput.value = profileName.textContent;
   jobInput.value = profileJob.textContent;
- });
+ })
 
  buttonPopupClose.addEventListener('click',closePopup);
 
